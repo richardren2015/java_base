@@ -17,6 +17,8 @@ public class CommenAlgorithm {
 		int[] arr2 = ca.insertSort(arr);
 		System.out.println(Arrays.toString(arr2));
 
+		System.out.println("ssh");
+
 	}
 
 	/**
@@ -28,9 +30,7 @@ public class CommenAlgorithm {
 	 */
 	public int[] insertSort(int[] arr) {
 		int[] array = null;
-		for (int i=0;i<arr.length,i++){
 
-		}
 		return array;
 	}
 }
