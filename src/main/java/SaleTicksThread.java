@@ -6,6 +6,7 @@ public class SaleTicksThread {
     public static void main(String[] args) {
         Ticks1 t1 = new Ticks1();
         new Thread(t1,"线程1").start();
+        new Thread(t1,"窗口2").start();
     }
 }
 
